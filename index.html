@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>lukaspriess.de</title>
+<style>
+  html, body { height: 100%; margin: 0; }
+  body { display: grid; place-items: center; background: #0d0f14; overflow: hidden; }
+  .bild { position: relative; font-size: min(46vw, 46vh); line-height: 1; user-select: none; }
+  .finger { position: absolute; left: 62%; top: 30%; font-size: 46%; transform-origin: 50% 90%; animation: wackeln 1.6s ease-in-out infinite; }
+  @keyframes wackeln { 0%, 100% { transform: rotate(-8deg); } 50% { transform: rotate(10deg) translateY(-4%); } }
+  @media (prefers-reduced-motion: reduce) { .finger { animation: none; } }
+</style>
+</head>
+<body>
+<div class="bild" role="img" aria-label="Ein Gorilla zeigt den Mittelfinger">🦍<span class="finger">🖕</span></div>
+</body>
+</html>
